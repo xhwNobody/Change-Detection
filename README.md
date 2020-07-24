@@ -3,17 +3,17 @@ This repository provides a PyTorch implementation of A Deep Learning Method for 
 This is a paper link:https://www.onacademic.com/detail/journal_1000042300093999_1cf9.html
 
 ## inference
-1.python make_test_sample.py:By giving a SAR image, it will make all samples of this. 
+1.python make_test_sample.py:By giving a SAR image, it will make all samples. 
 
-2.python model/inference.py:To get result image.
+2.python model/inference.py:To get result.
 
-## Dataset
+## dataset
 The dataset contains three SAR images,including 'Ottawa','FarmlandC' and 'FarmlandD'.
 
-## train
+## how to train
 
-1.python pre_pseudo_label_SFCM.py:To make prepseudo label.It is not convenient to upload too many files,you can get the preprocessed data through my link.
+1.python pre_pseudo_label_SFCM.py:To make prepseudo labels.It is not convenient to upload too many files,you can get the preprocessed data through my link.
 
-2.python choose_correct_sample.py:To choose the right samples.
+2.python choose_correct_sample.py:Choose the right samples.
 
 3.python train.py
